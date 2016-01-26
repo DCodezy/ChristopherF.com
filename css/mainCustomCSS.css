@@ -300,6 +300,11 @@ header .header-content .header-content-inner p {
     padding: 4px;
     width:39px;
     height:39px;
+    transition: all .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: initial;
+    transition-delay: initial;
 }
 
 @media(min-width:768px) {
@@ -329,11 +334,16 @@ header .header-content .header-content-inner p {
         font-size: 18px;
     }
 
-    .icon-img {
+    .icon-img:n {
         margin: 0px 10px;
         padding: 5px;
         width:50px;
         height:50px;
+    }
+
+    .icon-img:hover {
+        width: 56px;
+        height: 56px;
     }
 }
 
@@ -352,11 +362,18 @@ img.profile-picture {
 }
 
 .project-img {
-    margin: 0 0 35px 0;
+    
 }
-@media screen and (max-width: 1200px) {
+
+.project-instance {
+    margin-bottom: 35px;
+    margin-top: 35px;
+
+}
+
+@media(min-width:768px) {
     .project-img {
-        margin: 15px 0;
+        
     }
 }
 
@@ -366,6 +383,8 @@ img.profile-picture {
     object-fit: cover;
     align-items: center;
     justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 @media screen and (min-width: 1300px) {
     .project-img {
@@ -431,6 +450,7 @@ footer div p {
 
 #header-sub {
     color: #D1D1D1;
+    font-size: 25px;
 }
 
 #footer-note {
