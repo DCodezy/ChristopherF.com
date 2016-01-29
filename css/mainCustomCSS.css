@@ -300,11 +300,6 @@ header .header-content .header-content-inner p {
     padding: 4px;
     width:39px;
     height:39px;
-    transition: all .3s;
-    transition-property: all;
-    transition-duration: 0.3s;
-    transition-timing-function: initial;
-    transition-delay: initial;
 }
 
 @media(min-width:768px) {
@@ -334,16 +329,21 @@ header .header-content .header-content-inner p {
         font-size: 18px;
     }
 
-    .icon-img:n {
+    .icon-img {
         margin: 0px 10px;
         padding: 5px;
         width:50px;
         height:50px;
+        transition: all .3s;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: initial;
+        transition-delay: initial;
     }
 
     .icon-img:hover {
-        width: 56px;
-        height: 56px;
+        width: 58px;
+        height: 58px;
     }
 }
 
@@ -450,9 +450,15 @@ footer div p {
 
 #header-sub {
     color: #D1D1D1;
-    font-size: 25px;
+    font-size: 17px;
 }
 
 #footer-note {
     font-size: 12px;
+}
+
+@media(min-width:768px) {
+    #header-sub {
+        font-size: 25px;
+    }
 }
