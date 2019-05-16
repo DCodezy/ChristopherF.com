@@ -5,7 +5,7 @@ html,body {
 
 body {
   font-family: Raleway,'Helvetica Neue',Arial,sans-serif;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -41,7 +41,7 @@ p, div {
 header h1 {
   margin-top: 50px;
   font-size: 35px;
-  color: #33ccff;
+  color: #4f4f4f;
 }
 
 #page-title {
@@ -77,8 +77,6 @@ header {
   min-height: auto;
   text-align: center;
   color: #000;
-  background-image: url("../img/mainHeaderTest4.jpg");
-  background-color:#686868;
   background-blend-mode: multiply;
   background-position: center;
   -webkit-background-size: cover;
@@ -96,7 +94,7 @@ header .header-content {
 
 header .header-content .header-content-inner h1 {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -106,7 +104,7 @@ header .header-content .header-content-inner hr {
 }
 
 header .header-content .header-content-inner p {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
@@ -199,7 +197,7 @@ header .header-content .header-content-inner p {
     margin-right: 15px;
 }
 .navbar-custom a {
-    color: #FFF;
+    color: #6b6b6b;
     font-weight: 400;
 }
 .navbar-custom a:hover {
@@ -230,6 +228,9 @@ header .header-content .header-content-inner p {
 }
 .navbar-custom .nav li.active a:hover {
     color: #fff;
+}
+.top-nav-collapse .nav li a {
+    color: #ffffff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -344,7 +345,7 @@ h2.identity-card-title {
 /** END: Posts section **/
 
 #header-sub {
-    color: #D1D1D1;
+    color: #6b6b6b;
     font-size: 17px;
 }
 
