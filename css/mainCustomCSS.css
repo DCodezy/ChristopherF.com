@@ -252,6 +252,7 @@ header .header-content .header-content-inner p {
 }
 @media (min-width:768px) {
     .navbar-custom {
+        position: absolute;
         padding: 15px 0;
         border-bottom: 0;
         letter-spacing: 1px;
@@ -262,7 +263,7 @@ header .header-content .header-content-inner p {
     }
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        background: #000;
+        position: absolute;
     }
 }
 .fa-bars {
